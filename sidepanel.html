@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Side Panel</title>
+    <link rel="stylesheet" type="text/css" href="sidepanel.css">
+</head>
+<body>
+<header id="myHeader">
+    <h1>Miro</h1>
+    <label for="viewSwitcher"></label><select id="viewSwitcher">
+    <option value="assistant">Digital Assistant</option>
+    <option value="validation">Validation Plan</option>
+    <option value="forms">Learning Diary Form</option>
+    <option value="diary">Learning Diary</option>
+
+
+</select>
+</header>
+<section id="content">
+
+    <!--    Team 1-->
+    <iframe id="assistant" src="https://daschatbot-e7ed4903fd61.herokuapp.com/" frameborder="0"></iframe>
+    <iframe id="validation"
+            src="https://docs.google.com/document/d/1ScSPQLMpDHav50PV5tbF0vUl8W4w2OyKQ84BlQ4OcOY/edit?usp=sharing"
+            frameborder="0" style="display: none;"></iframe>
+    <iframe id="diary"
+            src="https://docs.google.com/document/d/1L3PK9xZBuk3AlV8_A3IX5vRNEz_ZJ0v3U8upDltrMhA/edit?usp=sharing"
+            frameborder="0" style="display: none;"></iframe>
+    <iframe id="forms" src="https://forms.gle/T77M3Qnk6eFayvna7" frameborder="0" style="display: none;"></iframe>
+
+    <!--    Team 2-->
+<!--        <iframe id="assistant" src="https://daschatbot-e7ed4903fd61.herokuapp.com/" frameborder="0"></iframe>-->
+<!--        <iframe id="diary"-->
+<!--                src="https://docs.google.com/document/d/1ilisAkep79igINIVhEsrJ6pOrJZyk66hGmeddSAl2xA/edit?usp=sharing"-->
+<!--                frameborder="0" style="display: none;"></iframe>-->
+<!--        <iframe id="forms" src="https://forms.gle/T77M3Qnk6eFayvna7" frameborder="0" style="display: none;"></iframe>-->
+<!--        <iframe id="validation"-->
+<!--                src="https://docs.google.com/document/d/1ZpYXj6KEr3NffTR3Np-Y5eAkv8v32B27zlAefBLGoNQ/edit?usp=sharing"-->
+<!--                frameborder="0" style="display: none;"></iframe>-->
+</section>
+<script src="sidepanel.js"></script>
+</body>
+</html>

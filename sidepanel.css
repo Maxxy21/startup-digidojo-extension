@@ -1,0 +1,46 @@
+/* sidepanel.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: #333; /* Dark background for contrast */
+    color: #fff; /* Light text for readability */
+}
+
+header#myHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #222;
+}
+
+header#myHeader h1 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+select#viewSwitcher {
+    padding: 5px 15px;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select#viewSwitcher:hover {
+    background: #666;
+}
+
+section#content {
+    height: calc(100vh - 50px); /* Adjust based on the height of the header */
+}
+
+section#content iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
